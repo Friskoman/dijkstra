@@ -1,0 +1,616 @@
+C:\msys64\mingw64\bin\mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun 11 21:14:04 2023
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 23)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 22)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile (from 'Makefile', line 12)
+EXT = .cpp
+# makefile (from 'Makefile', line 35)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# makefile (from 'Makefile', line 14)
+OBJDIR = obj
+# environment
+USERPROFILE = C:\Users\frisk
+# environment
+LOCALAPPDATA = C:\Users\frisk\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\frisk\AppData\Local\Programs\Microsoft VS Code
+# makefile (from 'Makefile', line 17)
+TESTSRCDIR = test
+# makefile (from 'Makefile', line 31)
+DELOBJ = $(OBJ) $(TESTOBJ)
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/msys64/mingw64/bin/mingw32-make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# makefile (from 'Makefile', line 27)
+TESTOBJ = $(TESTSRC:$(TESTSRCDIR)/%$(EXT)=$(TESTOBJDIR)/%.o)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_19636_KAVEFXYMYOZJKLYS
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\frisk\AppData\Roaming\Code\CachedData\b3e4e68a0bc097f0ae7907b217c1119af9e03435
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\frisk\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\frisk\OneDrive
+# makefile (from 'Makefile', line 24)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# makefile
+CURDIR := d:/School/Year 1/blok 4/C++ school/dijkstra
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Vlucht.d', line 1)
+MAKEFILE_LIST := Makefile Dijkstra.d Kaart.d Note.d Reis.d Rit.d Vlucht.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 19636
+# makefile (from 'Makefile', line 11)
+APPNAME = main
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\frisk
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C;C:\Program Files\dotnet\;C:\Users\frisk\AppData\Roaming\local\bin;C:\Users\frisk\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\frisk\AppData\Local\Programs\Python\Python39\;C:\Users\frisk\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2020.2.1\bin;;C:\Users\frisk\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\frisk\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\doxygen\bin;C:\Program Files\dotnet;C:\Users\frisk\.dotnet\tools
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = SNAPPYLAPPY
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2020.2.1\bin;
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\SNAPPYLAPPY
+# environment
+USERNAME = frisk
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF 
+;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = SNAPPYLAPPY
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 36)
+WDELTESTOBJ = $(TESTSRC:$(TESTSRCDIR)/%$(EXT)=$(TESTOBJDIR)\\%.o)
+# makefile (from 'Makefile', line 34)
+EXE = .exe
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 30)
+RM = rm
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 8)
+LDFLAGS = 
+# makefile (from 'Makefile', line 33)
+DEL = del
+# environment
+USERDOMAIN_ROAMINGPROFILE = SNAPPYLAPPY
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 16)
+TESTAPPNAME = test
+# makefile (from 'Makefile', line 18)
+TESTOBJDIR = testobj
+# environment
+APPDATA = C:\Users\frisk\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+STACK_ROOT = C:\sr
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\frisk\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c14bf6eea4652260b9d8ed386e30133b-1.78.2-main-sock
+# makefile (from 'Makefile', line 28)
+TESTDEP = $(TESTOBJ:$(TESTOBJDIR)/%.o=%.d)
+# makefile (from 'Makefile', line 13)
+SRCDIR = src
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+VSCODE_CRASH_REPORTER_SANDBOXED_HINT = 1
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -std=c++17 -Wall
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 7e05
+# makefile (from 'Makefile', line 6)
+CC = g++
+# makefile (from 'Makefile', line 26)
+TESTSRC = $(wildcard $(TESTSRCDIR)/*$(EXT))
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=12/212=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key d:/School/Year 1/blok 4/C++ school/dijkstra/src, mtime 1683298476): 9 files, 2 impossibilities.
+# . (key d:/School/Year 1/blok 4/C++ school/dijkstra, mtime 1684926344): 17 files, no impossibilities.
+# test (key d:/School/Year 1/blok 4/C++ school/dijkstra/test, mtime 1684923112): 5 files, 6 impossibilities.
+
+# 31 files, 8 impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.d: src/%.cpp test/%.cpp
+#  recipe to execute (from 'Makefile', line 53):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+obj/%.o: src/%.cpp main.cpp
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+testobj/%.o: test/%.cpp
+#  recipe to execute (from 'Makefile', line 64):
+	$(CC) $(CXXFLAGS) -o $@ -c $<  -Isrc/
+
+# 3 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+Vlucht.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 86):
+	$(DEL) $(DEP) $(TESTDEP)f
+
+# Not a target:
+test_dijkstra.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+src/include/Vlucht.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:54:24
+#  File has been updated.
+#  Successfully updated.
+
+obj/Vlucht.o: src/Vlucht.cpp main.cpp src/Vlucht.cpp src/include/Vlucht.hpp src/include/Bestemming.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Vlucht'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+Dijkstra.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+obj/Reis.o: src/Reis.cpp main.cpp src/Reis.cpp src/include/Reis.hpp src/include/Bestemming.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Reis'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(RM) $(DEP) $(TESTDEP)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:17:40
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/include/Dijkstra.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 16:50:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Dijkstra.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-11 21:09:22
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	$(RM) $(DELOBJ) $(DELTESTOBJ)  $(DEP) $(TESTDEP) $(APPNAME)
+
+# Not a target:
+src/include/Note.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:46:10
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/include/Reis.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:50:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Note.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 15:59:26
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Vlucht.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:54:24
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Rit.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Note.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+testobj/test_dijkstra.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Reis.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+Kaart.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:16:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-11 21:13:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Kaart.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 00:51:08
+#  File has been updated.
+#  Successfully updated.
+
+main: obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o main.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main
+# automatic
+# * := 
+# automatic
+# < := obj/Dijkstra.o
+# automatic
+# + := obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o main.cpp
+# automatic
+# % := 
+# automatic
+# ^ := obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o main.cpp
+# automatic
+# ? := obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o main.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
+#  recipe to execute (from 'Makefile', line 46):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+# Not a target:
+src/include/Kaart.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 00:48:12
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/include/Vergelijker.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-06 14:49:48
+#  File has been updated.
+#  Successfully updated.
+
+test: obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o testobj/test.o testobj/test_dijkstra.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(DEL) $(WDELOBJ) $(WDELTESTOBJ) $(DEP) $(TESTDEP) $(APPNAME)$(EXE)
+
+# Not a target:
+src/include/Bestemming.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-05 17:41:04
+#  File has been updated.
+#  Successfully updated.
+
+obj/Dijkstra.o: src/Dijkstra.cpp main.cpp src/Dijkstra.cpp src/include/Dijkstra.hpp src/include/Kaart.hpp src/include/Note.hpp src/include/Bestemming.hpp src/include/Vergelijker.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Dijkstra'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+obj/Rit.o: src/Rit.cpp main.cpp src/Rit.cpp src/include/rit.hpp src/include/Bestemming.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Rit'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+src/Rit.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:54:08
+#  File has been updated.
+#  Successfully updated.
+
+obj/Note.o: src/Note.cpp main.cpp src/Note.cpp src/include/Note.hpp src/include/Bestemming.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Note'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/include/rit.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:54:16
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean cleandep cleanw cleandepw
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+obj/Kaart.o: src/Kaart.cpp main.cpp src/Kaart.cpp src/include/Kaart.hpp src/include/Note.hpp src/include/Bestemming.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Kaart'
+#  Last modified 2023-06-11 21:13:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+testobj/test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Reis.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 22:50:40
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=42/1024=4%, Rehash=0, Collisions=2/172=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 78 / storage = 891 B / avg = 11 B
+# current buf: size = 8162 B / used = 891 B / count = 78 / avg = 11 B
+
+# strcache performance: lookups = 208 / hit rate = 62%
+# hash-table stats:
+# Load=78/8192=1%, Rehash=0, Collisions=0/208=0%
+# Finished Make data base on Sun Jun 11 21:14:04 2023
+
+ 

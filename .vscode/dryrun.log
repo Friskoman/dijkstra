@@ -1,0 +1,7 @@
+C:\msys64\mingw64\bin\mingw32-make.exe all --dry-run --keep-going --print-directory
+mingw32-make: Entering directory 'd:/School/Year 1/blok 4/C++ school/dijkstra'
+g++ -std=c++17 -Wall -o main obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o main.cpp 
+ 
+g++ -std=c++17 -Wall -o test obj/Dijkstra.o obj/Kaart.o obj/Note.o obj/Reis.o obj/Rit.o obj/Vlucht.o testobj/test.o testobj/test_dijkstra.o 
+mingw32-make: Leaving directory 'd:/School/Year 1/blok 4/C++ school/dijkstra'
+ 

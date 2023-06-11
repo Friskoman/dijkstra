@@ -1,0 +1,103 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\frisk\\C++ school\\dijkstra",
+            "binaryPath": "c:\\Users\\frisk\\C++ school\\dijkstra\\myapp",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra",
+            "binaryPath": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra\\myapp",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra",
+            "binaryPath": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra\\main",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra",
+            "binaryPath": "c:\\Users\\frisk\\School\\Year 1\\blok 4\\C++ school\\dijkstra\\test",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "d:\\School\\Year 1\\blok 4\\C++ school\\dijkstra",
+            "binaryPath": "d:\\School\\Year 1\\blok 4\\C++ school\\dijkstra\\test",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "d:\\School\\Year 1\\blok 4\\C++ school\\dijkstra",
+            "binaryPath": "d:\\School\\Year 1\\blok 4\\C++ school\\dijkstra\\main",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "unordered_set": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "iomanip": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "mutex": "cpp",
+        "semaphore": "cpp",
+        "sstream": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "variant": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
